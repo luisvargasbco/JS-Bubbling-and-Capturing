@@ -11,5 +11,6 @@ videoBox.onclick = function() {
 };
 
 video.onclick = function() {
+  event.stopPropagation();
   video.play();
 };
